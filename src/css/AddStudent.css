@@ -1,0 +1,66 @@
+/* AddStudent.css*/
+.student-form-container {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #301934;
+}
+
+.student-form {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.student-form h2 {
+    cursor: default;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.student-form h2:hover {
+    color: #ff0046;
+}
+
+.student-form .form-group {
+    margin-bottom: 15px;
+}
+
+.student-form .form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.student-form .form-group input,
+.student-form .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.student-form .btn-add-student {
+    background-color: #1acf23;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.student-form .btn-add-student:hover {
+    background-color: #ff0046;
+}
